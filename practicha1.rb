@@ -9,10 +9,10 @@ age = nowYear - birthYear
 
 puts "Napevno vam #{age} rokiv"
 
-ditina = age <17
-unak = age >17 && age <25
-dorosliy = age >25 && age <60
-stariy = age >60
+ditina = age < 17
+unak = age > 17 && age < 25
+dorosliy = age > 25 && age < 60
+stariy = age > 60
 if ditina
     puts "Vchy English ditino!"  
 end
